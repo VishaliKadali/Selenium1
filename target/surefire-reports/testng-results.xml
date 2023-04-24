@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="17" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43263" started-at="2023-04-24T14:35:05 IST" finished-at="2023-04-24T14:35:48 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43263" started-at="2023-04-24T14:35:05 IST" finished-at="2023-04-24T14:35:48 IST">
+      <class name="testcase.DeleteLead">
+        <test-method status="PASS" signature="runDeleteLead()[pri:0, instance:testcase.DeleteLead@6043cd28]" name="runDeleteLead" duration-ms="21540" started-at="2023-04-24T14:35:05 IST" finished-at="2023-04-24T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+      </class> <!-- testcase.DeleteLead -->
+      <class name="testcase.EditLead">
+        <test-method status="PASS" signature="runEditLead()[pri:0, instance:testcase.EditLead@42d8062c]" name="runEditLead" duration-ms="18845" started-at="2023-04-24T14:35:29 IST" depends-on-methods="testcase.CreateLead.runCreateLead" finished-at="2023-04-24T14:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+      </class> <!-- testcase.EditLead -->
+      <class name="testcase.CreateLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcase.CreateLead@69a3d1d]" name="preCondition" is-config="true" duration-ms="10853" started-at="2023-04-24T14:35:05 IST" finished-at="2023-04-24T14:35:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:testcase.CreateLead@69a3d1d]" name="runCreateLead" duration-ms="13443" started-at="2023-04-24T14:35:16 IST" finished-at="2023-04-24T14:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.CreateLead@69a3d1d]" name="postCondition" is-config="true" duration-ms="82" started-at="2023-04-24T14:35:29 IST" finished-at="2023-04-24T14:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="42943" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:36:31 IST">
+    <groups>
+    </groups>
+    <test name="edge" duration-ms="39224" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:36:27 IST">
+      <class name="week5.day2.CreateLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="preCondition" is-config="true" duration-ms="7159" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="createLead" duration-ms="16362" started-at="2023-04-24T14:35:55 IST" finished-at="2023-04-24T14:36:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="postCondition" is-config="true" duration-ms="120" started-at="2023-04-24T14:36:11 IST" finished-at="2023-04-24T14:36:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="preCondition" is-config="true" duration-ms="4500" started-at="2023-04-24T14:36:12 IST" finished-at="2023-04-24T14:36:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="createLead" duration-ms="10997" started-at="2023-04-24T14:36:16 IST" finished-at="2023-04-24T14:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLead@64f6106c]" name="postCondition" is-config="true" duration-ms="85" started-at="2023-04-24T14:36:27 IST" finished-at="2023-04-24T14:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week5.day2.CreateLead -->
+    </test> <!-- edge -->
+    <test name="chrome" duration-ms="42943" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:36:31 IST">
+      <class name="week5.day2.CreateLead">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="preCondition" is-config="true" duration-ms="6750" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="createLead" duration-ms="17425" started-at="2023-04-24T14:35:55 IST" finished-at="2023-04-24T14:36:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="postCondition" is-config="true" duration-ms="96" started-at="2023-04-24T14:36:12 IST" finished-at="2023-04-24T14:36:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="preCondition" is-config="true" duration-ms="5697" started-at="2023-04-24T14:36:12 IST" finished-at="2023-04-24T14:36:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="createLead" duration-ms="12874" started-at="2023-04-24T14:36:18 IST" finished-at="2023-04-24T14:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLead@cb0ed20]" name="postCondition" is-config="true" duration-ms="101" started-at="2023-04-24T14:36:31 IST" finished-at="2023-04-24T14:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week5.day2.CreateLead -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="4" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:48 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="LearnGroups.test1()[pri:0, instance:week6.day1.LearnGroups@37374a5e]" name="test1" class="week6.day1.LearnGroups"/>
+        <method signature="LearnGroups.test2()[pri:0, instance:week6.day1.LearnGroups@37374a5e]" name="test2" class="week6.day1.LearnGroups"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="4" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:48 IST">
+      <class name="week6.day1.LearnGroups">
+        <test-method status="PASS" signature="test2()[pri:0, instance:week6.day1.LearnGroups@37374a5e]" name="test2" duration-ms="0" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:week6.day1.LearnGroups@37374a5e]" name="test1" duration-ms="0" started-at="2023-04-24T14:35:48 IST" finished-at="2023-04-24T14:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- week6.day1.LearnGroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite (3)" duration-ms="82788" started-at="2023-04-24T14:37:05 IST" finished-at="2023-04-24T14:38:28 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="34925" started-at="2023-04-24T14:37:05 IST" finished-at="2023-04-24T14:37:40 IST">
+      <class name="week5.day2.CreateLeadWithDataProvider">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="preCondition" is-config="true" duration-ms="4980" started-at="2023-04-24T14:37:05 IST" finished-at="2023-04-24T14:37:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="createLead" duration-ms="10492" started-at="2023-04-24T14:37:10 IST" data-provider="Create" finished-at="2023-04-24T14:37:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="postCondition" is-config="true" duration-ms="81" started-at="2023-04-24T14:37:20 IST" finished-at="2023-04-24T14:37:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="preCondition" is-config="true" duration-ms="7701" started-at="2023-04-24T14:37:21 IST" finished-at="2023-04-24T14:37:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="createLead" duration-ms="11516" started-at="2023-04-24T14:37:28 IST" data-provider="Create" finished-at="2023-04-24T14:37:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@75881071]" name="postCondition" is-config="true" duration-ms="79" started-at="2023-04-24T14:37:40 IST" finished-at="2023-04-24T14:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week5.day2.CreateLeadWithDataProvider -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="47555" started-at="2023-04-24T14:37:40 IST" finished-at="2023-04-24T14:38:28 IST">
+      <class name="week5.day2.EditLeadWithDataProvider">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="preCondition" is-config="true" duration-ms="5970" started-at="2023-04-24T14:37:40 IST" finished-at="2023-04-24T14:37:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String)[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="editLead" duration-ms="18344" started-at="2023-04-24T14:37:46 IST" data-provider="Edit" finished-at="2023-04-24T14:38:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="postCondition" is-config="true" duration-ms="86" started-at="2023-04-24T14:38:05 IST" finished-at="2023-04-24T14:38:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="preCondition" is-config="true" duration-ms="5264" started-at="2023-04-24T14:38:05 IST" finished-at="2023-04-24T14:38:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String)[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="editLead" duration-ms="17672" started-at="2023-04-24T14:38:10 IST" data-provider="Edit" finished-at="2023-04-24T14:38:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.EditLeadWithDataProvider@5d11346a]" name="postCondition" is-config="true" duration-ms="92" started-at="2023-04-24T14:38:28 IST" finished-at="2023-04-24T14:38:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week5.day2.EditLeadWithDataProvider -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite (3) -->
+  <suite name="Suite (2)" duration-ms="34074" started-at="2023-04-24T14:36:31 IST" finished-at="2023-04-24T14:37:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34074" started-at="2023-04-24T14:36:31 IST" finished-at="2023-04-24T14:37:05 IST">
+      <class name="week5.day2.CreateLeadWithDataProvider">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="preCondition" is-config="true" duration-ms="4590" started-at="2023-04-24T14:36:32 IST" finished-at="2023-04-24T14:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="createLead" duration-ms="11471" started-at="2023-04-24T14:36:37 IST" data-provider="Create" finished-at="2023-04-24T14:36:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="postCondition" is-config="true" duration-ms="88" started-at="2023-04-24T14:36:48 IST" finished-at="2023-04-24T14:36:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="preCondition" is-config="true" duration-ms="5869" started-at="2023-04-24T14:36:48 IST" finished-at="2023-04-24T14:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="createLead" duration-ms="10536" started-at="2023-04-24T14:36:54 IST" data-provider="Create" finished-at="2023-04-24T14:37:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:week5.day2.CreateLeadWithDataProvider@7403c468]" name="postCondition" is-config="true" duration-ms="90" started-at="2023-04-24T14:37:05 IST" finished-at="2023-04-24T14:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week5.day2.CreateLeadWithDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>
